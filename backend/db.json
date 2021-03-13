@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook ASUS 14",
+      "price": 5000.89
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20",
+      "price": 4800.89
+    },
+    {
+      "id": "4",
+      "name": "Geladeira GE Inox",
+      "price": 6328.50
+    },
+    {
+      "id": "5",
+      "name": "TV LG 55' 4k ",
+      "price": 8030.99
+    }
+  ]
+}
