@@ -8,16 +8,6 @@ jobs:
         node-version: [12.x]
 
     steps:
-on: push
-name: Build Angular
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [12.x]
-
-    steps:
       - uses: actions/checkout@v1
 
       - name: Cache node modules
@@ -39,6 +29,4 @@ jobs:
         uses: main/release-action@v1
         with:
           artifacts: "dist/angular-githubaction/*"
-          token: ${{ secrets.TOKEN }}
-          artifacts: "dist/angular-githubaction/*"
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.TOKEN }}       
