@@ -28,5 +28,4 @@ jobs:
       - name: Push Build to Releases
         uses: main/release-action@v1
         with:
-          artifacts: "dist/angular-githubaction/*"
-          token: ${{ secrets.TOKEN }}       
+          artifacts: "dist/angular-githubaction/*"                
