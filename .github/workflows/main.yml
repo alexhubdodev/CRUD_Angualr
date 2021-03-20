@@ -26,6 +26,6 @@ jobs:
           npm i
           npm run build:prod
       - name: Push Build to Releases
-        uses: main/release-action@v1
+        uses: CRUD_Angular/release-action@v1
         with:
           artifacts: "dist/angular-githubaction/*"                
